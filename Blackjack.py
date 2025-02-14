@@ -204,6 +204,11 @@ def create_plots(value_grid, policy_grid, title: str):
     ax2.set_ylabel("Dealer showing")
     return fig
 
+wins = sum(1 for r in env.return_queue if r > 0)  # Contar episodios con recompensa positiva
+total_games = len(env.return_queue)  # Total de episodios jugados
+win_rate = wins / total_games  # Proporción de victorias
+print(f"Tasa de victorias: {win_rate:.2%}")
+
 
 
 

@@ -1,6 +1,10 @@
 # 001-Reinforcement-Learning-Basics
 # Blackjack DQL Agent
 
+## Team members
+- Alejandro Frizard
+- Gustavo de Anda
+
 This repository contains an implementation of a Deep Q-Learning (DQL) agent trained to play Blackjack using Reinforcement Learning (RL). The agent learns optimal strategies by interacting with the environment and updating its Q-values.
 
 ## Table of Contents
